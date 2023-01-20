@@ -1,0 +1,232 @@
+/* #sect1 {
+    height: 650 px;
+    color: #fff;
+    background-image: url("../../assets/images/image.png");
+    background-size: 50%;
+    background-size: cover;
+} */
+
+
+#form {
+    position: absolute;
+
+
+    top: 10px;
+    bottom: 1800px;
+
+
+}
+
+#logo {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 980px;
+    top: 100px;
+}
+
+#welcome {
+    /* Welcome back! */
+
+
+    position: absolute;
+    width: 174px;
+    height: 33px;
+    left: 880px;
+    top: 200px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: rgba(9, 9, 55, 0.6);
+}
+
+#login {
+
+
+    position: absolute;
+    width: 336px;
+    height: 44px;
+    left: 880px;
+    top: 250px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #090937;
+}
+
+#email {
+
+    position: absolute;
+    width: 94.84px;
+    height: 27px;
+    left: 880px;
+    top: 350px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #090937;
+
+}
+
+#emailTextField {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    left: 880px;
+    top: 400px;
+
+    background: #F4F4FF;
+    border-radius: 4px;
+}
+
+
+#pass {
+
+    position: absolute;
+    width: 92px;
+    height: 27px;
+    left: 880px;
+    top: 430px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #090937;
+
+}
+
+#passTextField {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    left: 880px;
+    top: 480px;
+
+    background: #F4F4FF;
+    border-radius: 4px;
+}
+
+#rememberMe {
+
+
+    position: absolute;
+
+    width: 82px;
+    height: 17px;
+    left: 845px;
+    top: 530px;
+
+    background: #6251DD;
+}
+
+#label {
+
+
+
+    position: absolute;
+    width: 111px;
+    height: 22px;
+    left: 905px;
+    top: 530px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #6251DD;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#loginBtn {
+
+    /* Button */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 880px;
+    top: 570px;
+    color: #FFFFFF;
+    background: #EF6B4A;
+    border-radius: 4px;
+    border-color: #EF6B4A;
+}
+
+#registerBtn {
+
+
+    /* box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    color: #090937;
+
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 880px;
+    top: 640px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #6251DD;
+    border-radius: 4px;
+
+}
