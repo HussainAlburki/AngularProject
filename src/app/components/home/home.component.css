@@ -1,0 +1,135 @@
+/* general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    gap: 200px;
+
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 10px rgba(9, 9, 55, 0.02)
+}
+
+.header img {
+    height: 50px;
+}
+
+.header form {
+    display: flex;
+    align-items: center;
+}
+
+.header input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+
+    width: 700px;
+    height: 40px;
+
+    background: #F4F4FF;
+    border-radius: 4px;
+    border-color: #F4F4FF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.header button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #2196f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+
+    justify-content: space-between;
+    padding: 5px;
+
+    color: black;
+}
+
+
+
+/* banner styles */
+
+.banner img {
+    size: 50%;
+    align-content: space-between;
+}
+
+/* categories styles */
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.categories h2 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.categories .books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.categories .books .book {
+    width: 10%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.categories .books .book img {
+    width: 100%;
+    height: auto;
+}
+
+.categories .books .book h3 {
+    margin-top: 10px;
+}
+
+.categories a {
+    display: block;
+    width: 100%;
+    text-align: right;
+    text-decoration: none;
+    color: #EF6B4A;
+    font: size 40px;
+
+    margin-top: 25px;
+}
+
+#price {
+    color: #2196f3;
+    font-size: 20px;
+    font-weight: 400;
+}
