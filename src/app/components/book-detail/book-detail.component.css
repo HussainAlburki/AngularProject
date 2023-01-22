@@ -1,0 +1,191 @@
+/* header styles */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    gap: 200px;
+
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 10px rgba(9, 9, 55, 0.02)
+}
+
+.header img {
+    height: 50px;
+}
+
+.header form {
+    display: flex;
+    align-items: center;
+}
+
+.header input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+
+    width: 700px;
+    height: 40px;
+
+    background: #F4F4FF;
+    border-radius: 4px;
+    border-color: #F4F4FF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.header button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #2196f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+
+    justify-content: space-between;
+    padding: 5px;
+
+    color: black;
+}
+
+
+
+.book-detail-page {
+    display: flex;
+    padding-top: 150px;
+}
+
+.book-image {
+    width: 30%;
+    /* adjust as needed */
+}
+
+.book-info {
+    width: 70%;
+    /* adjust as needed */
+    padding: 0 10px;
+    /* add some padding */
+}
+
+.book-title {
+    font-size: 28px;
+    /* adjust as needed */
+    margin-top: 0;
+}
+
+.book-author {
+    font-size: 18px;
+    /* adjust as needed */
+    margin-top: 10px;
+    width: 209px;
+    height: 44px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: rgba(0, 0, 0, 0.6);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.summary-title {
+    font-size: 20px;
+    /* adjust as needed */
+    margin-top: 20px;
+    /* add some margin if needed*/
+}
+
+.book-summary {
+    font-size: 16px;
+    /* adjust as needed */
+    margin-top: 10px;
+    width: 820px;
+    height: 300px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    text-align: justify;
+
+    color: rgba(9, 9, 55, 0.6);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.buy-button-container {
+    position: absolute;
+    bottom: 20px;
+    /* adjust as needed */
+    right: 20px;
+    /* adjust as needed */
+}
+
+.buy-button {
+    padding: 10px 20px;
+    /* adjust as needed */
+    background: #EF6B4A;
+    /* adjust as needed */
+    color: #fff;
+    /* adjust as needed */
+    border: none;
+    /* remove the border if any */
+    font-size: 18px;
+    /* adjust as needed */
+    text-align: center;
+    /* align the text to center*/
+}
+
+.title-container {
+    position: absolute;
+    /* set the position to absolute*/
+    top: 70px;
+    /* adjust as needed */
+    left: 20px;
+    /* adjust as needed */
+    display: flex;
+    align-items: center;
+}
+
+.book-image {
+    position: relative;
+    /* make sure the book-image has a relative position*/
+    width: 30%;
+    /* adjust as needed */
+}
