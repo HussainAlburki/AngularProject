@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
-
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
@@ -18,6 +17,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'viewall', component: ViewAllComponent },
+  { path: 'bookdetail', component: BookDetailComponent },
   { path: '', redirectTo: 'login', pathMatch: 'full' },
 ];
 
@@ -27,6 +28,8 @@ const routes: Routes = [
     LoginComponent,
     RegisterComponent,
     HomeComponent,
+    ViewAllComponent,
+    BookDetailComponent,
 
   ],
   imports: [
